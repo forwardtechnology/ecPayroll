@@ -3963,6 +3963,17 @@ body {
 .cid-qZxeyrMFtW .dropdown-item:hover {
   color: #767676 !important;
 }
+.cid-r1rc8nmMmj h1 {
+  color: #616161;
+}
+.cid-r1rc8nmMmj h2,
+.cid-r1rc8nmMmj h3,
+.cid-r1rc8nmMmj p {
+  color: #767676;
+}
+.cid-r1rc8nmMmj .mbr-section-subtitle {
+  font-style: italic;
+}
 .cid-qZCSimEwIl {
   padding-top: 15px;
   padding-bottom: 0px;
