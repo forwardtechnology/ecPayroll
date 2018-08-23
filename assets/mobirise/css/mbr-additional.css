@@ -4145,17 +4145,89 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
-.cid-r1rpz8N3hn {
-  background-image: url("../../../assets/images/background1.jpg");
+.cid-r1xtloAQqr {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
 }
-.cid-r1rpz8N3hn h1 {
-  color: #616161;
+@media (min-width: 992px) {
+  .cid-r1xtloAQqr .mbr-figure {
+    padding-right: 4rem;
+  }
 }
-.cid-r1rpz8N3hn h2,
-.cid-r1rpz8N3hn h3,
-.cid-r1rpz8N3hn p {
-  color: #767676;
+@media (max-width: 991px) {
+  .cid-r1xtloAQqr .mbr-figure {
+    padding-bottom: 3rem;
+  }
 }
-.cid-r1rpz8N3hn .mbr-section-subtitle {
-  font-style: italic;
+@media (max-width: 767px) {
+  .cid-r1xtloAQqr .mbr-text {
+    text-align: center;
+  }
+}
+.cid-r1xtloAQqr H1 {
+  color: #232323;
+}
+.cid-r1xtloAQqr .mbr-text,
+.cid-r1xtloAQqr .mbr-section-btn {
+  color: #232323;
+}
+.cid-r1xBGB0tEc {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-r1xBGB0tEc .media-container-row {
+  flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-r1xBGB0tEc .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-r1xBGB0tEc .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-r1xBGB0tEc .mbr-text {
+    text-align: center;
+  }
+}
+.cid-r1xBGB0tEc H1 {
+  color: #232323;
+}
+.cid-r1xBGB0tEc .mbr-text,
+.cid-r1xBGB0tEc .mbr-section-btn {
+  color: #232323;
+}
+.cid-r1xBDqP8fq {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-r1xBDqP8fq .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-r1xBDqP8fq .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-r1xBDqP8fq .mbr-text {
+    text-align: center;
+  }
+}
+.cid-r1xBDqP8fq H1 {
+  color: #232323;
+}
+.cid-r1xBDqP8fq .mbr-text,
+.cid-r1xBDqP8fq .mbr-section-btn {
+  color: #232323;
 }
