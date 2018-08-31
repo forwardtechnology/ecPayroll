@@ -4729,8 +4729,8 @@ body {
 }
 .cid-r26OARoNa7 {
   padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
+  padding-bottom: 0px;
+  background-color: #b2ccd2;
 }
 @media (min-width: 992px) {
   .cid-r26OARoNa7 .mbr-figure {
@@ -4754,10 +4754,106 @@ body {
 .cid-r26OARoNa7 .mbr-section-btn {
   color: #232323;
 }
+.cid-r2i5Qprnm9 {
+  padding-top: 0px;
+  padding-bottom: 45px;
+  background-color: #b2ccd2;
+}
+.cid-r2i5Qprnm9 .card-box {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.cid-r2i5Qprnm9 h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-r2i5Qprnm9 p {
+  color: #767676;
+  text-align: left;
+}
+.cid-r2i5Qprnm9 .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-r2i5Qprnm9 .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-r2i5Qprnm9 .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.cid-r2i5Qprnm9 .card-title {
+  color: #232323;
+}
+.cid-r2iuKTeIQE {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #facdd8;
+}
+.cid-r2iuKTeIQE .media-container-row {
+  flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-r2iuKTeIQE .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-r2iuKTeIQE .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-r2iuKTeIQE .mbr-text {
+    text-align: center;
+  }
+}
+.cid-r2iuKTeIQE H1 {
+  color: #232323;
+}
+.cid-r2iuKTeIQE .mbr-text,
+.cid-r2iuKTeIQE .mbr-section-btn {
+  color: #232323;
+}
+.cid-r2iyJN00l5 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-r2iyJN00l5 .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-r2iyJN00l5 .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-r2iyJN00l5 .mbr-text {
+    text-align: center;
+  }
+}
+.cid-r2iyJN00l5 H1 {
+  color: #232323;
+}
+.cid-r2iyJN00l5 .mbr-text,
+.cid-r2iyJN00l5 .mbr-section-btn {
+  color: #232323;
+}
 .cid-r26OASn1hM {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #b2ccd2;
+  background-color: #efefef;
 }
 .cid-r26OASn1hM .media-container-row {
   flex-direction: row-reverse;
