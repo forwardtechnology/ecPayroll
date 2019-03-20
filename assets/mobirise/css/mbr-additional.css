@@ -2364,6 +2364,27 @@ body {
 .cid-rleXvoxT8o B {
   color: #efefef;
 }
+.cid-rlfA903gP4 {
+  background: #718b68;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.cid-rlfA903gP4 .image-block {
+  margin: auto;
+}
+.cid-rlfA903gP4 figcaption {
+  position: relative;
+}
+.cid-rlfA903gP4 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rlfA903gP4 .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rleYPV5TZa {
   padding-top: 0px;
   padding-bottom: 30px;
