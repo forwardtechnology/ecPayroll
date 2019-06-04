@@ -3287,7 +3287,7 @@ body {
 .cid-r1Caxc5tg9 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 .cid-r1Caxc5tg9 .media-container-row {
   flex-direction: row-reverse;
@@ -3314,6 +3314,14 @@ body {
 }
 .cid-r1Caxc5tg9 .mbr-text,
 .cid-r1Caxc5tg9 .mbr-section-btn {
+  color: #232323;
+}
+.cid-rrm9Dom0hk {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rrm9Dom0hk H2 {
   color: #232323;
 }
 .cid-rmyJZjPtL6 {
@@ -3790,7 +3798,7 @@ body {
 }
 .cid-rmFxRreZF1 {
   padding-top: 15px;
-  padding-bottom: 90px;
+  padding-bottom: 45px;
   background-color: #efefef;
 }
 .cid-rmFxRreZF1 .card-box {
@@ -4096,6 +4104,14 @@ body {
 }
 .cid-r25gfA7Vjl .mbr-text,
 .cid-r25gfA7Vjl .mbr-section-btn {
+  color: #232323;
+}
+.cid-rrmadIuDPb {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rrmadIuDPb H2 {
   color: #232323;
 }
 .cid-rmFrwlZQ7v {
@@ -4679,7 +4695,7 @@ body {
 }
 .cid-r26OARoNa7 {
   padding-top: 90px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
   background-color: #b2ccd2;
 }
 @media (min-width: 992px) {
@@ -4916,7 +4932,7 @@ body {
 .cid-r26OASn1hM {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #efefef;
+  background-color: #c1c1c1;
 }
 .cid-r26OASn1hM .media-container-row {
   flex-direction: row-reverse;
@@ -4943,6 +4959,14 @@ body {
 }
 .cid-r26OASn1hM .mbr-text,
 .cid-r26OASn1hM .mbr-section-btn {
+  color: #232323;
+}
+.cid-rrm6d38XDN {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rrm6d38XDN H2 {
   color: #232323;
 }
 .cid-r26OAV7CkR {
@@ -5724,6 +5748,18 @@ body {
     padding-bottom: 0!important;
   }
 }
+.cid-rmyWoeVROW {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rmyWoeVROW .mbr-text,
+.cid-rmyWoeVROW blockquote {
+  color: #767676;
+}
+.cid-rmyWoeVROW .mbr-text P {
+  text-align: left;
+}
 .cid-r26QS8gTo4 {
   padding-top: 45px;
   padding-bottom: 45px;
@@ -5756,17 +5792,13 @@ body {
 .cid-r26QS8gTo4 .mbr-section-btn {
   color: #232323;
 }
-.cid-rmyWoeVROW {
+.cid-rrm9SoTNRa {
   padding-top: 15px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-rmyWoeVROW .mbr-text,
-.cid-rmyWoeVROW blockquote {
-  color: #767676;
-}
-.cid-rmyWoeVROW .mbr-text P {
-  text-align: left;
+.cid-rrm9SoTNRa H2 {
+  color: #232323;
 }
 .cid-rmyWi80NMZ {
   padding-top: 30px;
