@@ -1,0 +1,1936 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40046662-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40046662-3');
+
+</script>
+
+<meta http-equiv=Content-Type content="text/html; charset=big5">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="Check_Program_Running_Problem(E).files/filelist.xml">
+<link rel=Edit-Time-Data
+href="Check_Program_Running_Problem(E).files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title> </title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Fung</o:Author>
+  <o:Template>NewPage(TC).dot</o:Template>
+  <o:LastAuthor>Fung</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>641</o:TotalTime>
+  <o:LastPrinted>2012-01-31T03:52:00Z</o:LastPrinted>
+  <o:Created>2012-02-21T07:15:00Z</o:Created>
+  <o:LastSaved>2012-02-21T07:15:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>339</o:Words>
+  <o:Characters>1937</o:Characters>
+  <o:Company> </o:Company>
+  <o:Lines>16</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2272</o:CharactersWithSpaces>
+  <o:Version>10.6870</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>80</w:Zoom>
+  <w:AttachedTemplate HRef="NewPage(TC).dot"></w:AttachedTemplate>
+  <w:PunctuationKerning/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:新細明體;
+	panose-1:2 2 3 0 0 0 0 0 0 0;
+	mso-font-alt:PMingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 3 0 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:新細明體;
+	mso-font-kerning:1.0pt;}
+h1
+	{mso-style-next:內文;
+	margin-top:9.0pt;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:14.0pt;
+	mso-bidi-font-size:26.0pt;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:26.0pt;}
+h2
+	{mso-style-next:內文;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:24.0pt;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	border:none;
+	mso-border-bottom-alt:solid windowtext 2.25pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:20.0pt;
+	mso-bidi-font-size:24.0pt;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+h3
+	{mso-style-next:內文;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:300%;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:18.0pt;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+h4
+	{mso-style-next:內文;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;
+	mso-ansi-language:EN-GB;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:0cm;
+	mso-para-margin-left:3.0gd;
+	mso-para-margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:新細明體;
+	mso-font-kerning:1.0pt;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:11.9pt 37.3pt 12.2pt 45.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:18.0pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:137304232;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1239762468 556293246 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:582448579;
+	mso-list-type:hybrid;
+	mso-list-template-ids:773064312 758125498 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-hansi-font-family:"Times New Roman";}
+@list l1:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:582840710;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1149351166 -1807979760 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l2:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:701592741;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-797282340 -2053596036 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-hansi-font-family:新細明體;}
+@list l3:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4
+	{mso-list-id:1164661737;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1206479792 -1780554610 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l4:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5
+	{mso-list-id:1175071804;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-401279070 -2071314972 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l5:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6
+	{mso-list-id:1286422147;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-515841072 -260903318 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l6:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l6:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7
+	{mso-list-id:1302342647;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1565299428 -975437824 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l7:level1
+	{mso-level-tab-stop:24.0pt;
+	mso-level-number-position:left;
+	margin-left:24.0pt;
+	text-indent:-24.0pt;}
+@list l7:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8
+	{mso-list-id:1448157287;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-433656110 -1152498150 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l8:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-hansi-font-family:"Times New Roman";}
+@list l8:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9
+	{mso-list-id:1533497231;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1903277310 609019614 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l9:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l9:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10
+	{mso-list-id:1874154000;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1531404274 -1322492240 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l10:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:��;
+	mso-level-tab-stop:24.0pt;
+	mso-level-number-position:left;
+	margin-left:24.0pt;
+	text-indent:-24.0pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:Wingdings;}
+@list l10:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11
+	{mso-list-id:1896626701;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-14768634 526312726 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l11:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-hansi-font-family:新細明體;}
+@list l11:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:表格內文;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-TW link=blue vlink=purple style='tab-interval:24.0pt;text-justify-trim:
+punctuation'>
+
+<div class=Section1 style='layout-grid:18.0pt'>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<h1 style='border:none;mso-border-bottom-alt:solid windowtext 1.0pt;padding:
+0cm;mso-padding-alt:0cm 0cm 1.0pt 0cm'><a name="_Toc4985418"></a><a
+name="_Toc4985669"><span style='mso-bookmark:_Toc4985418'><span lang=EN-GB
+style='mso-ansi-language:EN-GB;font-weight:normal'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:45pt;
+ height:21.75pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image001.jpg"
+  o:title="ecTAlogo(Original)"/>
+</v:shape><![endif]--><![if !vml]><img width=60 height=29
+src="Check_Program_Running_Problem(E).files/image002.jpg" v:shapes="_x0000_i1025"><![endif]><!--[if gte vml 1]><v:shape
+ id="_x0000_i1026" type="#_x0000_t75" style='width:63pt;height:21.75pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image003.jpg"
+  o:title="ecPayrolllogo(Original)"/>
+</v:shape><![endif]--><![if !vml]><img width=84 height=29
+src="Check_Program_Running_Problem(E).files/image004.jpg" v:shapes="_x0000_i1026"><![endif]><o:p></o:p></span></span></a></h1>
+
+</div>
+
+<span style='mso-bookmark:_Toc4985418'></span><span style='mso-bookmark:_Toc4985669'></span>
+
+<h1><span style='font-size:12.0pt;font-family:新細明體;mso-ascii-font-family:Arial;
+mso-hansi-font-family:Arial;mso-ansi-language:EN-GB;font-weight:normal'>檢查</span><span
+lang=EN-GB style='font-size:12.0pt;mso-ansi-language:EN-GB;font-weight:normal'>ecPayroll</span><span
+style='font-size:12.0pt;font-family:新細明體;mso-ascii-font-family:Arial;
+mso-hansi-font-family:Arial;mso-ansi-language:EN-GB;font-weight:normal'>沒法開啟的方法</span><span
+lang=EN-US style='font-size:12.0pt;font-weight:normal'><o:p></o:p></span></h1>
+
+<h4><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;
+mso-hansi-font-family:Arial;mso-bidi-font-family:Arial'>請確定你已完成以下部分</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial'><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:24.1pt;text-indent:-24.1pt;mso-list:l10 level1 lfo2;
+tab-stops:list 24.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:8.0pt;mso-bidi-font-size:9.0pt;font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;mso-ansi-language:
+EN-GB'><span style='mso-list:Ignore'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-ansi-language:EN-GB;mso-fareast-language:ZH-HK'>無</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+mso-ansi-language:EN-GB'>情況一</span></u></b><b style='mso-bidi-font-weight:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></u></b></p>
+
+<h4 style='layout-grid-mode:char'><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>你的電腦一直能成功開啟</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;font-weight:normal'>ecPayroll</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:
+Arial;font-weight:normal'>系統</span><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>，但某日突然沒法開啟系統</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'>(</span><span lang=ZH-HK style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;mso-fareast-language:
+ZH-HK;font-weight:normal'>跳出</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-fareast-language:ZH-HK;font-weight:normal'> [</span><span
+lang=ZH-HK style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;
+mso-bidi-font-family:Arial;mso-fareast-language:ZH-HK;font-weight:normal'>找不到硬件鎖，或太多使用者登入伺服器</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'>] )</span><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>，其他工作站能成功登入系統。</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US
+style='font-size:9.0pt;font-family:Arial'><!--[if gte vml 1]><v:shape id="_x0000_i1027"
+ type="#_x0000_t75" style='width:290.25pt;height:70.5pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image005.png"
+  o:title="闒粀&#54180;闀粀"/>
+</v:shape><![endif]--><![if !vml]><img width=387 height=94
+src="Check_Program_Running_Problem(E).files/image006.jpg" v:shapes="_x0000_i1027"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB;mso-fareast-language:
+ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>通常由以下原因引起：</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB;mso-fareast-language:
+ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:l7 level1 lfo4;
+tab-stops:list 24.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>有其他使用者正在開啟系統，同時超出使用者上限</span><span
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'> <b style='mso-bidi-font-weight:normal'><u><span
+lang=EN-GB>-</span></u></b></span><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><u><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請參考對應解決方法</span></u></i></b><b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> A</span></u></i></b><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:l7 level1 lfo4;
+tab-stops:list 24.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>你的網絡可能沒法與伺服器連線</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'> -</span><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><u><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請參考對應解決方法</span></u></i></b><b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>B</span></u></i></b><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+mso-ansi-language:EN-GB'>情況二</span></u></b><b style='mso-bidi-font-weight:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></u></b></p>
+
+<h4 style='layout-grid-mode:char'><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>你的電腦一直能成功開啟</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;font-weight:normal'>ecPayroll</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:
+Arial;font-weight:normal'>系統</span><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>，但某日突然沒法開啟系統</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'>(</span><span lang=ZH-HK style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;mso-fareast-language:
+ZH-HK;font-weight:normal'>跳出</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-fareast-language:ZH-HK;font-weight:normal'> [</span><span
+lang=ZH-HK style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;
+mso-bidi-font-family:Arial;mso-fareast-language:ZH-HK;font-weight:normal'>找不到硬件鎖，或太多使用者登入伺服器</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'>] )</span><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>，其他工作站也沒法登入系統。</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:新細明體;
+mso-fareast-language:ZH-HK;font-weight:normal'><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US
+style='font-size:9.0pt;font-family:Arial'><!--[if gte vml 1]><v:shape id="_x0000_i1028"
+ type="#_x0000_t75" style='width:290.25pt;height:70.5pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image005.png"
+  o:title="闒粀&#54180;闀粀"/>
+</v:shape><![endif]--><![if !vml]><img width=387 height=94
+src="Check_Program_Running_Problem(E).files/image007.jpg" v:shapes="_x0000_i1028"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='mso-ansi-language:EN-GB;mso-fareast-language:ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>通常由以下原因引起：</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo6;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=ZH-HK style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;
+mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB;mso-fareast-language:ZH-HK'>硬件鎖被拔掉</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB;mso-fareast-language:
+ZH-HK'> / </span><span lang=ZH-HK style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB;mso-fareast-language:ZH-HK'>曾經被拔掉再插入</span><span
+lang=ZH-HK style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB;mso-fareast-language:ZH-HK'> </span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>-</span><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><u><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請參考對應解決方法</span></u></i></b><b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>C</span></u></i></b><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1029" type="#_x0000_t75" style='width:42.75pt;height:43.5pt;
+ mso-position-horizontal-relative:char;mso-position-vertical-relative:line'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image008.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=57 height=58
+src="Check_Program_Running_Problem(E).files/image009.jpg" v:shapes="_x0000_i1029"><![endif]></span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+"Times New Roman";mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>硬件鎖實物</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> (</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+"Times New Roman";mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>橘色</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> /
+</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+mso-ansi-language:EN-GB'>藍色</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo6;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+"Times New Roman";mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>安裝了硬件鎖的電腦沒有啟動硬件鎖的服務</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>(netdogservice)
+/ </span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>該服務被關閉</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'> / </span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>該服務當機</span><span style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'> </span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>-</span><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><u><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請參考對應解決方法</span></u></i></b><b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>C</span></u></i></b><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo6;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+"Times New Roman";mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>最近更新過防火牆設定</span><span
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'> </span><span style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'><span style='mso-spacerun:yes'>&nbsp;</span></span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>-</span><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><u><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請參考對應解決方法</span></u></i></b><b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>G</span></u></i></b><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+mso-ansi-language:EN-GB'>情況三</span></u></b><b style='mso-bidi-font-weight:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></u></b></p>
+
+<h4 style='layout-grid-mode:char'><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>你的電腦一直能成功開啟</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;font-weight:normal'>ecPayroll</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:
+Arial;font-weight:normal'>系統</span><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>，但某日突然沒法開啟系統</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'>(</span><span lang=ZH-HK style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;mso-fareast-language:
+ZH-HK;font-weight:normal'>跳出</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-fareast-language:ZH-HK;font-weight:normal'> [</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:新細明體;
+font-weight:normal'>Enter Server Address</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;font-weight:
+normal'>] )</span><span lang=ZH-HK style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;mso-fareast-language:
+ZH-HK;font-weight:normal'>，其他工作站也沒法登入系統。</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:新細明體;mso-fareast-language:
+ZH-HK;font-weight:normal'><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US
+style='font-size:9.0pt;font-family:Arial'><!--[if gte vml 1]><v:shape id="_x0000_i1030"
+ type="#_x0000_t75" style='width:311.25pt;height:133.5pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image010.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=415 height=178
+src="Check_Program_Running_Problem(E).files/image011.jpg" v:shapes="_x0000_i1030"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='mso-ansi-language:EN-GB;mso-fareast-language:ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>通常由以下原因引起：</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l8 level1 lfo8;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:EN-GB'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>沒法連線至</span><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:
+EN-GB'>SQL Server </span><span lang=EN-GB style='font-size:9.0pt;font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:EN-GB;
+mso-fareast-language:ZH-HK'><span style='mso-spacerun:yes'>&nbsp;</span></span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>-</span><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><u><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請參考對應解決方法</span></u></i></b><b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>D</span></u></i></b><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l8 level1 lfo8;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:EN-GB'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:
+EN-GB'>SQL Server </span><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>的設定被更動過</span><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:
+EN-GB'> -</span><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'><u><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+mso-ansi-language:EN-GB'>請參考對應解決方法</span></u></i></b><b style='mso-bidi-font-weight:
+normal'><i style='mso-bidi-font-style:normal'><u><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>E</span></u></i></b><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><b style='mso-bidi-font-weight:
+normal'><u><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+mso-ansi-language:EN-GB'>情況四</span></u></b><b style='mso-bidi-font-weight:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></u></b></p>
+
+<h4 style='layout-grid-mode:char'><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>你的電腦從未成功開啟</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;font-weight:normal'>ecPayroll</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:
+Arial;font-weight:normal'>系統</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-fareast-language:ZH-HK;font-weight:normal'> (</span><span
+lang=ZH-HK style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;
+mso-bidi-font-family:Arial;mso-fareast-language:ZH-HK;font-weight:normal'>跳出</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'> [</span><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>找不到硬件鎖，或太多使用者登入伺服器</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'>] )</span><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>，但其他工作站能成功登入系統。</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:新細明體;
+mso-fareast-language:ZH-HK;font-weight:normal'><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US
+style='font-size:9.0pt;font-family:Arial'><!--[if gte vml 1]><v:shape id="_x0000_i1031"
+ type="#_x0000_t75" style='width:290.25pt;height:70.5pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image005.png"
+  o:title="闒粀&#54180;闀粀"/>
+</v:shape><![endif]--><![if !vml]><img width=387 height=94
+src="Check_Program_Running_Problem(E).files/image006.jpg" v:shapes="_x0000_i1031"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='mso-ansi-language:EN-GB;mso-fareast-language:ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span lang=ZH-HK style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;
+mso-fareast-language:ZH-HK;font-weight:normal'>通常由以下原因引起：</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-language:ZH-HK;
+font-weight:normal'><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo10;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:EN-GB'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>你的網絡可能沒法與其他電腦連線</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'> -</span><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><u><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請參考對應解決方法</span></u></i></b><b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><u><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>B</span></u></i></b><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l1 level1 lfo10;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:EN-GB'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>未安裝</span><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:
+EN-GB'>ecPayroll</span><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>程式</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:
+EN-GB'>(</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+mso-ansi-language:EN-GB'>工作站版本</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-hansi-font-family:"Times New Roman";mso-ansi-language:
+EN-GB'>) -</span><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'><u><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+mso-ansi-language:EN-GB'>請參考對應解決方法</span></u></i></b><b style='mso-bidi-font-weight:
+normal'><i style='mso-bidi-font-style:normal'><u><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'>F</span></u></i></b><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB;mso-fareast-language:
+ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB;mso-fareast-language:
+ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB;mso-fareast-language:
+ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB;mso-fareast-language:
+ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB;mso-fareast-language:
+ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB;mso-fareast-language:
+ZH-HK'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial'>解決方法</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial'> A<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l11 level1 lfo12;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-hansi-font-family:新細明體;mso-ansi-language:EN-GB'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於其他工作站關閉</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>ecPayroll</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>系統，以釋放可用</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>License<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial'>解決方法</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial'> B<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo14;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-hansi-font-family:新細明體;mso-ansi-language:EN-GB'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>請找你的</span><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>IT</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>同事協助你檢查</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo14;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-hansi-font-family:新細明體;mso-ansi-language:EN-GB'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>嘗試</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'>PING IP</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>，查看能否連線至伺服器</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>PC<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo14;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-hansi-font-family:新細明體;mso-ansi-language:EN-GB'><span
+style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>確保已共用</span><span style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'> </span><span style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>伺服器</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>\TAMS\ </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>及其所有子資料夾</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> (</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>存取權限為</span><span
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>完全控制</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial'>解決方法</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial'> C<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo16;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>如硬件鎖被拔掉，請重新把硬件鎖插入安裝有硬件鎖程式的電腦</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo16;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於安裝有硬件鎖程式的電腦進入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>[</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>控制台</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo16;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>進入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>[</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>系統管理工具</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo16;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>進入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>[</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>服務</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo16;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>停止</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>[NetDogService]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l5 level1 lfo16;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>重新啟動</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>[NetDogService]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US><!--[if gte vml 1]><v:shape
+ id="_x0000_i1032" type="#_x0000_t75" style='width:460.5pt;height:297.75pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image012.png"
+  o:title="闒粀&#54180;闀粀"/>
+</v:shape><![endif]--><![if !vml]><img width=614 height=397
+src="Check_Program_Running_Problem(E).files/image013.jpg" v:shapes="_x0000_i1032"><![endif]></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US
+style='font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:Arial'>解決方法</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial'> D<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo18;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請找你的</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>IT</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>同事協助你檢查</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo18;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>確保</span><span
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>安裝</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>SQL
+Server</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>的電腦正在運作</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo18;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>確保</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+SQL Server</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>服務正在運作</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'> (</span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>如附圖</span><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>1 </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>SQL
+Server Configuration Manager</span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>內查看</span><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>SQL Server(MSSQLSERVER)</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>服務</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo18;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>確保</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+SQL </span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>防火牆沒有攔截</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'>SQL Server</span><span style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>服務</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> (</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>如附圖</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>2<span
+style='mso-tab-count:1'> </span></span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>設定</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'>sqlservr.exe </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>為不受防火牆限制的例外程式</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo18;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>確保</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+SQL Server</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>的</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'>Protocols(</span><span style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>如附圖</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>3 </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>SQL
+Server Configuration Manager</span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>包括</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'>Named Pipes </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>及</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+TCP/IP </span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>已啟用</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo18;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於工作站輸入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>SQL
+Server Address (</span><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>請詢問你的</span><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>IT</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>同事</span><span
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>或致電我們查看舊記錄</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>)</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>並按</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+[OK]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo18;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於工作站輸入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+Database Name (</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>預設為</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'> tams) </span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>並按</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'>[OK]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo18;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於工作站輸入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+SQL User Name (</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>預設為</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'> sa) </span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>並按</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'> [OK]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l9 level1 lfo18;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>9.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於工作站輸入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+SQL User Password (</span><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>請詢問你的</span><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>IT</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>同事</span><span
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>或致電我們查看舊記錄</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>)</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>並按</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+[OK]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>附圖</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>1<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1033" type="#_x0000_t75" style='width:513pt;height:157.5pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image014.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=684 height=210
+src="Check_Program_Running_Problem(E).files/image015.jpg" v:shapes="_x0000_i1033"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>附圖</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>2<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='mso-ansi-language:EN-GB'><!--[if gte vml 1]><v:shape id="_x0000_i1034"
+ type="#_x0000_t75" style='width:325.5pt;height:359.25pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image016.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=434 height=479
+src="Check_Program_Running_Problem(E).files/image017.jpg" v:shapes="_x0000_i1034"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>附圖</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>3<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='mso-ansi-language:EN-GB'><!--[if gte vml 1]><v:shape id="_x0000_i1035"
+ type="#_x0000_t75" style='width:513pt;height:157.5pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image018.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=684 height=210
+src="Check_Program_Running_Problem(E).files/image019.jpg" v:shapes="_x0000_i1035"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:Arial'>解決方法</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial'> E<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo20;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請找你的</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>IT</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>同事協助你檢查</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo20;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於工作站輸入最新的</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>SQL
+Server Address</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>並按</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'> [OK] (</span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>如</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'>SQL Server</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>的</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>port</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>已更改</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>, </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請輸入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+sql server + port </span><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>於此欄</span><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>. </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>如</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+192.168.0.10,1443 </span><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>伺服器的</span><span lang=EN-GB style='font-size:
+9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>ip</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>及</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>port</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>可查看</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>SQL
+Server Configuration Manager</span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>中的</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'>SQL Server Network Configuration</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>中的</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+Protocols for MSSQLSERVER </span><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>中的</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'> TCP/IP</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>內容</span><span
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>如附圖</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>1)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo20;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於工作站輸入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+Database Name (</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>預設為</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'> tams) </span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>並按</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'>[OK]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo20;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於工作站輸入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+SQL User Name (</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>預設為</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'> sa) </span><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>並按</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'> [OK]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l2 level1 lfo20;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於工作站輸入</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+SQL User Password</span><span style='font-size:9.0pt;font-family:新細明體;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;mso-ansi-language:EN-GB'>並按</span><span lang=EN-GB style='font-size:9.0pt;
+font-family:Arial;mso-ansi-language:EN-GB'> [OK]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";mso-ansi-language:EN-GB'>附圖</span><span lang=EN-GB
+style='font-size:9.0pt;mso-ansi-language:EN-GB'>1<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;mso-ansi-language:EN-GB'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1036" type="#_x0000_t75" style='width:296.25pt;height:327pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image020.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=395 height=436
+src="Check_Program_Running_Problem(E).files/image021.jpg" v:shapes="_x0000_i1036"><![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial'>解決方法</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial'> F<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l6 level1 lfo22;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於工作站安裝程式</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>, </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>詳情請參考</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><a
+href="../../../../../Production_US/ecPayroll/UserManual/TC/2-Installation/Installation_Guide_(TC).htm"><span
+lang=EN-US style='font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-ansi-language:EN-US'>軟件安裝說明</span></a> (</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>第</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>2,
+3</span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>點</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<h4 style='layout-grid-mode:char'><span style='font-size:9.0pt;font-family:
+新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial'>解決方法</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial'> G<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo24;
+tab-stops:list 18.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-fareast-font-family:
+Arial;mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>在安裝硬體鎖電腦上</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>,</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>確保</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>
+SQL </span><span style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-ansi-language:
+EN-GB'>防火牆沒有攔截</span><span lang=EN-GB style='font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB'>NetDogService</span><span style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>服務</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'> (</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>如附圖</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>1 </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>設定</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>NetDogSrv</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>為不受防火牆限制的例外程式</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>, </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>如未有</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>NetDogSrv</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>於清單</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>, </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>請按</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>[</span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>新增程式</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>] </span><span
+style='font-size:9.0pt;font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:
+Arial;mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>自行選取</span><span
+lang=EN-GB style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>C:\Winodws\System32\NetDogSrv.exe)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;mso-ansi-language:EN-GB'>圖</span><span lang=EN-GB
+style='font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB'>1<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;mso-ansi-language:EN-GB'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1037" type="#_x0000_t75" style='width:324pt;height:357.75pt'>
+ <v:imagedata src="Check_Program_Running_Problem(E).files/image022.png"
+  o:title="闒粀&#54180;闀粀"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=432 height=477
+src="Check_Program_Running_Problem(E).files/image023.jpg" v:shapes="_x0000_i1037"><![endif]><o:p></o:p></span></p>
+
+<div style='border:none;border-top:solid windowtext 1.0pt;mso-border-top-alt:
+solid windowtext .5pt;padding:1.0pt 0cm 0cm 0cm'>
+
+<h4 style='layout-grid-mode:char;border:none;mso-border-top-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 0cm 0cm 0cm'><span style='font-size:9.0pt;
+font-family:新細明體;mso-ascii-font-family:"Times New Roman"'>相關連結</span><span
+lang=EN-GB style='font-size:9.0pt;mso-hansi-font-family:新細明體;mso-fareast-language:
+ZH-HK'><o:p></o:p></span></h4>
+
+</div>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-GB
+style='font-size:9.0pt;font-family:新細明體;mso-ansi-language:EN-GB;mso-fareast-language:
+ZH-HK'><a
+href="../../../../../Production_US/ecPayroll/UserManual/TC/2-Installation/Installation_Guide_(TC).htm"><span
+lang=ZH-HK>軟件安裝</span></a></span><span lang=EN-GB style='font-size:9.0pt;
+font-family:新細明體;mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
